@@ -7,16 +7,10 @@ tfkl = tf.keras.layers
 
 """KDD BiGAN architecture.
 
-decodera probability layer eklemeyi basardim
-simdi sirada generator lossunu degistirmek var
-onu da yaptim sanki daha iyi ogreniyor gibi. Gercekten ogrenip ogrenmedigini weightleri inceleyerek bakacagim 
-gercekten degisim varsa o ise yariyor demektir. Mesela ilk gen egitiminden once ve sonra ve en son egitimden sonra weightleri yazdirip bakabilirim.
-Veya 2.egitimdeki losslari silip sanki orda sadece encoderi egitiyor gibi davranip ilk lossta degisim olacak mi diye bakabilirim.
-Haftasonu bunlari bitir...  
 
 Generator (decoder), encoder and discriminator.
 
-yaptim galiba calisyiyor
+
 
 """
 # learning_rate_gen = 0.001
